@@ -1,0 +1,106 @@
+{
+ "properties": {
+  "displayName": "Bank Negara Malaysia RMiT",
+  "policyType": "Custom",
+  "description": "Bank Negara Malaysia RMiT Azure Built-In Policies ",
+  "metadata": {
+   "category": "malaysiarmit",
+   "version": "1.0",
+   "createdBy": "9659956a-146d-4a42-95a4-374f3eaeed57",
+   "createdOn": "2021-11-16T04:13:59.9694219Z",
+   "updatedBy": "9659956a-146d-4a42-95a4-374f3eaeed57",
+   "updatedOn": "2021-11-16T12:33:42.6355206Z"
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "API Management services should use a virtual network_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ef619a2c-cc4d-4d03-b2ba-8c94a834d85b",
+    "parameters": {},
+    "groupNames": [
+     "Networking Policies"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Microsoft Managed Control 1428 - Media Access_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0a77fcc7-b8d8-451a-ab52-56197913c0c7",
+    "parameters": {},
+    "groupNames": [
+     "Microsoft Managed"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Microsoft Managed Control 1044 - Unsuccessful Logon Attempts_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0abbac52-57cf-450d-8408-1208d0dd9e90",
+    "parameters": {},
+    "groupNames": [
+     "Microsoft Managed"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Microsoft Managed Control 1115 - Audit Review, Analysis, And Reporting_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0b653845-2ad9-4e09-a4f3-5a7c1d78353d",
+    "parameters": {},
+    "groupNames": [
+     "Microsoft Managed"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Microsoft Managed Control 1239 - User-Installed Software_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0be51298-f643-4556-88af-d7db90794879",
+    "parameters": {},
+    "groupNames": [
+     "Microsoft Managed"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Public network access should be disabled for Container registries_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0fdf0491-d080-4575-b627-ad0e843cba0f",
+    "parameters": {},
+    "groupNames": [
+     "Container"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Container registries should not allow unrestricted network access_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/d0793b48-0edc-4296-a390-4c75d1bdfd71",
+    "parameters": {},
+    "groupNames": [
+     "Container"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Virtual networks should use specified virtual network gateway_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/f1776c76-f58c-4245-a8d0-2b207198dc8b",
+    "parameters": {
+     "virtualNetworkGatewayId": {
+      "value": "gatewayid"
+     }
+    },
+    "groupNames": [
+     "Networking Policies"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "Deploy SQL DB transparent data encryption_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/86a912f6-9a06-4e26-b447-11b16ba8659f",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": [
+   {
+    "name": "Microsoft Managed"
+   },
+   {
+    "name": "Networking Policies"
+   },
+   {
+    "name": "Container"
+   }
+  ]
+ },
+ "id": "/subscriptions/5399e248-4e89-4556-aac0-9a9b7d9835a7/providers/Microsoft.Authorization/policySetDefinitions/dca8a19154fd4366ad7b79e3",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "dca8a19154fd4366ad7b79e3"
+}
