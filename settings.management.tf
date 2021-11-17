@@ -6,7 +6,7 @@ locals {
         enabled = true
         config = {
           retention_in_days                           = var.log_retention_in_days
-          enable_monitoring_for_arc                   = true
+          enable_monitoring_for_arc                   = false
           enable_monitoring_for_vm                    = true
           enable_monitoring_for_vmss                  = true
           enable_solution_for_agent_health_assessment = true
@@ -24,7 +24,7 @@ locals {
         enabled = true
         config = {
           email_security_contact             = var.security_alerts_email_address
-          enable_defender_for_acr            = true
+          enable_defender_for_acr            = false
           enable_defender_for_app_services   = true
           enable_defender_for_arm            = true
           enable_defender_for_dns            = true

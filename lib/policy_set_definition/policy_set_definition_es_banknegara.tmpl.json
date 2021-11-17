@@ -1,0 +1,51 @@
+{
+  "name": "Bank-Negara-Malaysia",
+  "type": "Microsoft.Authorization/policySetDefinitions",
+  "apiVersion": "2021-06-01",
+  "scope": null,
+  "properties": {
+    "policyType": "Custom",
+    "displayName": "Bank Negara Malaysia RMit",
+    "description": "This initiative includes audit and virtual machine extension deployment policies that address a subset of Bank Negara Malaysia RMit controls. Additional policies will be added in upcoming releases",
+    "metadata": {},
+    "parameters": {},
+    "policyDefinitions": [
+        {
+         "policyDefinitionReferenceId": "API Management services should use a virtual network_S_10-33",
+         "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ef619a2c-cc4d-4d03-b2ba-8c94a834d85b",
+         "parameters": {},
+         "groupNames": [
+          "S-10.33"
+         ]
+        },
+        {
+         "policyDefinitionReferenceId": "Public network access should be disabled for Container registries_S_10-33",
+         "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0fdf0491-d080-4575-b627-ad0e843cba0f",
+         "parameters": {},
+         "groupNames": [
+          "S-10.33"
+         ]
+        },
+        {
+         "policyDefinitionReferenceId": "Container registries should not allow unrestricted network access_S_10-33",
+         "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/d0793b48-0edc-4296-a390-4c75d1bdfd71",
+         "parameters": {},
+         "groupNames": [
+          "S-10.33"
+         ]
+        },
+        {
+         "policyDefinitionReferenceId": "Virtual networks should use specified virtual network gateway_S_10-33",
+         "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/f1776c76-f58c-4245-a8d0-2b207198dc8b",
+         "parameters": {
+          "virtualNetworkGatewayId": {
+           "value": "gatewayid"
+          }
+         },
+         "groupNames": [
+          "S-10.33"
+         ]
+        }
+    ]
+  }
+}

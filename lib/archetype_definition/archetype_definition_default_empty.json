@@ -1,0 +1,16 @@
+{
+    "default_empty": {
+        "policy_assignments": [
+         "Bank-Negara-Malaysia"
+        ],
+        "policy_definitions": [],
+        "policy_set_definitions": [
+        "Bank-Negara-Malaysia"
+        ],
+        "role_definitions": [],
+        "archetype_config": {
+            "parameters": {},
+            "access_control": {}
+        }
+    }
+}

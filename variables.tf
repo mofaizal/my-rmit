@@ -2,12 +2,12 @@
 
 variable "root_id" {
   type    = string
-  default = "myorg"
+  default = "banknegara"
 }
 
 variable "root_name" {
   type    = string
-  default = "My Organization"
+  default = "Bank Negara Malaysia"
 }
 
 variable "deploy_management_resources" {
@@ -36,3 +36,8 @@ variable "management_resources_tags" {
     demo_type = "deploy_management_resources_custom"
   }
 }
+# variable "library_path" {
+#   type        = string
+#   description = "If specified, sets the path to a custom library folder for archetype artefacts."
+#   default     = "${path.root}/lib"
+# }
