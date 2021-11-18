@@ -1,13 +1,11 @@
 {
-    "default_empty": {
+    "extend_es_root": {
         "policy_assignments": [
-         "Bank-Negara-Malaysia"
+            "Bank-Negara-Malaysia"
         ],
-        "policy_definitions": [
-
-        ],
+        "policy_definitions": [],
         "policy_set_definitions": [
-        "Bank-Negara-Malaysia"
+            "Bank-Negara-Malaysia"
         ],
         "role_definitions": [],
         "archetype_config": {
