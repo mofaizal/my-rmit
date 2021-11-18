@@ -7,7 +7,9 @@
         ],
         "policy_definitions": [],
         "policy_set_definitions": [],
-        "role_definitions": [],
+        "role_definitions": [
+        "Bank-of-Indonesia"
+        ],
         "archetype_config": {
             "parameters": {
                 "Deny-Resource-Locations": {
